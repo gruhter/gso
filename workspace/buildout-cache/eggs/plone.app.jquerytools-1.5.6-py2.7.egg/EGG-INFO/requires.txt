@@ -1,0 +1,10 @@
+setuptools
+zope.component
+Products.CMFCore
+Products.GenericSetup
+Zope2
+
+[test]
+plone.app.testing
+unittest_jshint
+selenium

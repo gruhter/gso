@@ -1,0 +1,181 @@
+------------------------------------------------------------
+/home/action/.parts/bin/pip run on Thu May 22 19:57:43 2014
+Downloading/unpacking psycopg2==2.5
+  Getting page https://pypi.python.org/simple/psycopg2/
+  URLs to search for versions for psycopg2==2.5:
+  * https://pypi.python.org/simple/psycopg2/2.5
+  * https://pypi.python.org/simple/psycopg2/
+  Getting page https://pypi.python.org/simple/psycopg2/2.5
+  Could not fetch URL https://pypi.python.org/simple/psycopg2/2.5: 404 Client Error: Not Found
+  Will skip URL https://pypi.python.org/simple/psycopg2/2.5 when looking for download links for psycopg2==2.5
+  Analyzing links from page https://pypi.python.org/simple/psycopg2/
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.10.tar.gz#md5=2dc60d0fd90ad681e1e9106edef34e97 (from https://pypi.python.org/simple/psycopg2/), version: 2.0.10
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.11.tar.gz#md5=eec2a45bcea75a00cbf20a15ab1b8bae (from https://pypi.python.org/simple/psycopg2/), version: 2.0.11
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.12.tar.gz#md5=5c8080d0d0568479f041bb8534caf1f8 (from https://pypi.python.org/simple/psycopg2/), version: 2.0.12
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.13.tar.gz#md5=f520260595f4fcf035d26cfd57a75f19 (from https://pypi.python.org/simple/psycopg2/), version: 2.0.13
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.14.tar.gz#md5=30136c7753acc9cbdc36cc5c2448fdee (from https://pypi.python.org/simple/psycopg2/), version: 2.0.14
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.2.0.tar.gz#md5=4a69436dc8efbfe2859ae3aeed85d03e (from https://pypi.python.org/simple/psycopg2/), version: 2.2.0
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.2.1.tar.gz#md5=70b50773aefe5fb371ff4a018382012f (from https://pypi.python.org/simple/psycopg2/), version: 2.2.1
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.2.2.tar.gz#md5=571af2ad9dfeb522ee5f8553278a4c38 (from https://pypi.python.org/simple/psycopg2/), version: 2.2.2
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.3.0.tar.gz#md5=0b52101b47f1e73001c6412d9a476222 (from https://pypi.python.org/simple/psycopg2/), version: 2.3.0
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.3.1.tar.gz#md5=15d1c7f821f3a0306955d6cde3e762af (from https://pypi.python.org/simple/psycopg2/), version: 2.3.1
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.3.2.tar.gz#md5=11e8021a4fda49faa15495f8bea65f4d (from https://pypi.python.org/simple/psycopg2/), version: 2.3.2
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.1.tar.gz#md5=4e79c822ab75dd89d931ee627c66032f (from https://pypi.python.org/simple/psycopg2/), version: 2.4.1
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.2.tar.gz#md5=58cfd294d28b7e8ef059d72085d71ac2 (from https://pypi.python.org/simple/psycopg2/), version: 2.4.2
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.3.tar.gz#md5=5f67ca0c8b6c1ac5c4afd82811e0facc (from https://pypi.python.org/simple/psycopg2/), version: 2.4.3
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.4.tar.gz#md5=639e014ea9ce3aa3306724f12d16d79b (from https://pypi.python.org/simple/psycopg2/), version: 2.4.4
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.5.tar.gz#md5=075e4df465e9a863f288d5bdf6e6887e (from https://pypi.python.org/simple/psycopg2/), version: 2.4.5
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.6.tar.gz#md5=79d7f05e67bf70a0ecc6e9103ccece5f (from https://pypi.python.org/simple/psycopg2/), version: 2.4.6
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.tar.gz#md5=24f4368e2cfdc1a2b03282ddda814160 (from https://pypi.python.org/simple/psycopg2/), version: 2.4
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.5.1.tar.gz#md5=1b433f83d50d1bc61e09026e906d84c7 (from https://pypi.python.org/simple/psycopg2/), version: 2.5.1
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.5.2.tar.gz#md5=53d81793fbab8fee6e732a0425d50047 (from https://pypi.python.org/simple/psycopg2/), version: 2.5.2
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.5.3.tar.gz#md5=09dcec70f623a9ef774f1aef75690995 (from https://pypi.python.org/simple/psycopg2/), version: 2.5.3
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.5.tar.gz#md5=facd82faa067e99b80146a0ee2f842f6 (from https://pypi.python.org/simple/psycopg2/), version: 2.5
+    Skipping link http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/); not a file
+    Skipping link http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/); not a file
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.10.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.11.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.12.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.13.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.14.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.3.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.5.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.6.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.7.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.8.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.0.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.0.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.3.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.5.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.6.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.3.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.10.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.11.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.12.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.13.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.14.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.3.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.5.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.6.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.7.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.8.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.0.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.0.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.3.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.5.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.6.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.3.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.10.tar.gz#md5=2dc60d0fd90ad681e1e9106edef34e97 (from https://pypi.python.org/simple/psycopg2/), version 2.0.10 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.11.tar.gz#md5=eec2a45bcea75a00cbf20a15ab1b8bae (from https://pypi.python.org/simple/psycopg2/), version 2.0.11 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.12.tar.gz#md5=5c8080d0d0568479f041bb8534caf1f8 (from https://pypi.python.org/simple/psycopg2/), version 2.0.12 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.13.tar.gz#md5=f520260595f4fcf035d26cfd57a75f19 (from https://pypi.python.org/simple/psycopg2/), version 2.0.13 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.14.tar.gz#md5=30136c7753acc9cbdc36cc5c2448fdee (from https://pypi.python.org/simple/psycopg2/), version 2.0.14 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.2.0.tar.gz#md5=4a69436dc8efbfe2859ae3aeed85d03e (from https://pypi.python.org/simple/psycopg2/), version 2.2.0 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.2.1.tar.gz#md5=70b50773aefe5fb371ff4a018382012f (from https://pypi.python.org/simple/psycopg2/), version 2.2.1 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.2.2.tar.gz#md5=571af2ad9dfeb522ee5f8553278a4c38 (from https://pypi.python.org/simple/psycopg2/), version 2.2.2 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.3.0.tar.gz#md5=0b52101b47f1e73001c6412d9a476222 (from https://pypi.python.org/simple/psycopg2/), version 2.3.0 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.3.1.tar.gz#md5=15d1c7f821f3a0306955d6cde3e762af (from https://pypi.python.org/simple/psycopg2/), version 2.3.1 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.3.2.tar.gz#md5=11e8021a4fda49faa15495f8bea65f4d (from https://pypi.python.org/simple/psycopg2/), version 2.3.2 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.1.tar.gz#md5=4e79c822ab75dd89d931ee627c66032f (from https://pypi.python.org/simple/psycopg2/), version 2.4.1 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.2.tar.gz#md5=58cfd294d28b7e8ef059d72085d71ac2 (from https://pypi.python.org/simple/psycopg2/), version 2.4.2 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.3.tar.gz#md5=5f67ca0c8b6c1ac5c4afd82811e0facc (from https://pypi.python.org/simple/psycopg2/), version 2.4.3 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.4.tar.gz#md5=639e014ea9ce3aa3306724f12d16d79b (from https://pypi.python.org/simple/psycopg2/), version 2.4.4 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.5.tar.gz#md5=075e4df465e9a863f288d5bdf6e6887e (from https://pypi.python.org/simple/psycopg2/), version 2.4.5 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.6.tar.gz#md5=79d7f05e67bf70a0ecc6e9103ccece5f (from https://pypi.python.org/simple/psycopg2/), version 2.4.6 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.tar.gz#md5=24f4368e2cfdc1a2b03282ddda814160 (from https://pypi.python.org/simple/psycopg2/), version 2.4 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.5.1.tar.gz#md5=1b433f83d50d1bc61e09026e906d84c7 (from https://pypi.python.org/simple/psycopg2/), version 2.5.1 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.5.2.tar.gz#md5=53d81793fbab8fee6e732a0425d50047 (from https://pypi.python.org/simple/psycopg2/), version 2.5.2 doesn't match ==2.5
+  Ignoring link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.5.3.tar.gz#md5=09dcec70f623a9ef774f1aef75690995 (from https://pypi.python.org/simple/psycopg2/), version 2.5.3 doesn't match ==2.5
+  Downloading from URL https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.5.tar.gz#md5=facd82faa067e99b80146a0ee2f842f6 (from https://pypi.python.org/simple/psycopg2/)
+  Running setup.py (path:/tmp/pip_build_action/psycopg2/setup.py) egg_info for package psycopg2
+    usage: -c [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+       or: -c --help [cmd1 cmd2 ...]
+       or: -c --help-commands
+       or: -c cmd --help
+    
+    error: invalid command 'egg_info'
+    Complete output from command python setup.py egg_info:
+    usage: -c [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+
+   or: -c --help [cmd1 cmd2 ...]
+
+   or: -c --help-commands
+
+   or: -c cmd --help
+
+
+
+error: invalid command 'egg_info'
+
+----------------------------------------
+Cleaning up...
+  Removing temporary dir /tmp/pip_build_action...
+Command python setup.py egg_info failed with error code 1 in /tmp/pip_build_action/psycopg2
+Exception information:
+Traceback (most recent call last):
+  File "/home/action/.parts/packages/python2/2.7.6/lib/python2.7/site-packages/pip-1.5.4-py2.7.egg/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/home/action/.parts/packages/python2/2.7.6/lib/python2.7/site-packages/pip-1.5.4-py2.7.egg/pip/commands/install.py", line 278, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/home/action/.parts/packages/python2/2.7.6/lib/python2.7/site-packages/pip-1.5.4-py2.7.egg/pip/req.py", line 1229, in prepare_files
+    req_to_install.run_egg_info()
+  File "/home/action/.parts/packages/python2/2.7.6/lib/python2.7/site-packages/pip-1.5.4-py2.7.egg/pip/req.py", line 325, in run_egg_info
+    command_desc='python setup.py egg_info')
+  File "/home/action/.parts/packages/python2/2.7.6/lib/python2.7/site-packages/pip-1.5.4-py2.7.egg/pip/util.py", line 697, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+InstallationError: Command python setup.py egg_info failed with error code 1 in /tmp/pip_build_action/psycopg2

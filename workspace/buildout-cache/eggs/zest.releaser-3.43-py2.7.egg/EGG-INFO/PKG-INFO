@@ -1,0 +1,405 @@
+Metadata-Version: 1.1
+Name: zest.releaser
+Version: 3.43
+Summary: Software releasing made easy and repeatable
+Home-page: http://zestreleaser.readthedocs.org
+Author: Reinout van Rees
+Author-email: reinout@vanrees.org
+License: GPL
+Description: Package releasing made easy: zest.releaser overview and installation
+        ====================================================================
+        
+        zest.releaser is collection of command-line programs to help you automate the
+        task of releasing a Python project.
+        
+        It does away with all the boring bits. This is what zest.releaser automates
+        for you:
+        
+        * It updates the version number. The version number can either be in
+          ``setup.py`` or ``version.txt``. For example, it switches you from
+          ``0.3.dev0`` (current development version) to ``0.3`` (release) to
+          ``0.4.dev0`` (new development version).
+        
+        * It updates the history/changes file. It logs the release date on release and
+          adds a new heading for the upcoming changes (new development version).
+        
+        * It tags the release. It creates a tag in your version control system named
+          after the released version number.
+        
+        * It optionally uploads a source release to PyPI. It will only do this if the
+          package is already registered there (else it will ask, defaulting to 'no');
+          zest releaser is careful not to publish your private projects!
+        
+        
+        Most important URLs
+        -------------------
+        
+        First the three most important links:
+        
+        - The full documentation is at `zestreleaser.readthedocs.org
+          <http://zestreleaser.readthedocs.org>`_.
+        
+        - We're `on PyPI <http://pypi.python.org/pypi/zest.releaser>`_, so we're only
+          an ``pip install zest.releaser`` away from installation on your computer.
+        
+        - The code is at `github.com/zestsoftware/zest.releaser
+          <https://github.com/zestsoftware/zest.releaser>`_.
+        
+        And... we're automatically being tested by Travis:
+        
+        .. image:: https://secure.travis-ci.org/zestsoftware/zest.releaser.png?branch=master
+           :target: https://travis-ci.org/#!/zestsoftware/zest.releaser
+        
+        
+        Installation
+        ------------
+        
+        Just a simple ``pip zest.releaser`` or ``easy_install zest.releaser`` is
+        enough.
+        
+        Alternatively, buildout users can install zest.releaser as part of a specific
+        project's buildout, by having a buildout configuration such as::
+        
+            [buildout]
+            parts =
+                scripts
+        
+            [scripts]
+            recipe = zc.recipe.egg
+            eggs = zest.releaser
+        
+        
+        Version control systems: svn, hg, git, bzr
+        ------------------------------------------
+        
+        Of course you must have a version control system installed.  zest.releaser
+        currently supports:
+        
+        - Subversion (svn).
+        
+        - Mercurial (hg).
+        
+        - Git (git).
+        
+        - Bazaar (bzr).
+        
+        Others could be added if there are volunteers! Git and mercurial support
+        have been contributed years ago when we were working with bzr and subversion,
+        for instance.
+        
+        
+        
+        Available commands
+        ------------------
+        
+        Zest.releaser gives you four commands to help in releasing python
+        packages.  They must be run in a version controlled checkout.  The commands
+        are:
+        
+        - **prerelease**: asks you for a version number (defaults to the current
+          version minus a 'dev' or so), updates the setup.py or version.txt and the
+          CHANGES/HISTORY/CHANGELOG file (with either .rst/.txt/.markdown or no
+          extension) with this new version number and offers to commit those changes
+          to subversion (or bzr or hg or git)
+        
+        - **release**: copies the the trunk or branch of the current checkout and
+          creates a version control tag of it.  Makes a checkout of the tag in a
+          temporary directory.  Offers to register and upload a source dist
+          of this package to PyPI (Python Package Index).  Note: if the package has
+          not been registered yet, it will not do that for you.  You must register the
+          package manually (``python setup.py register``) so this remains a conscious
+          decision.  The main reason is that you want to avoid having to say: "Oops, I
+          uploaded our client code to the internet; and this is the initial version
+          with the plaintext root passwords."
+        
+        - **postrelease**: asks you for a version number (gives a sane default), adds
+          a development marker to it, updates the setup.py or version.txt and the
+          CHANGES/HISTORY/CHANGELOG file with this and offers to commit those changes
+          to version control. Note that with git and hg, you'd also be asked to push
+          your changes (since 3.27). Otherwise the release and tag only live in your
+          local hg/git repository and not on the server.
+        
+        - **fullrelease**: all of the above in order.
+        
+        There are two additional tools:
+        
+        - **longtest**: small tool that renders a setup.py's long description
+          and opens it in a web browser. This assumes an installed docutils
+          (as it needs ``rst2html.py``).
+        
+        - **lasttagdiff**: small tool that shows the diff of the currently committed
+          trunk with the last released tag.  Handy for checking whether all the
+          changes are adequately described in the changes file.
+        
+        
+        Credits
+        =======
+        
+        * `Reinout van Rees <http://reinout.vanrees.org>`_ (Nelen & Schuurmans) is the
+          originator and main author.
+        
+        * `Maurits van Rees <http://maurits.vanrees.org>`_ (Zest Software) added
+          a heapload of improvements.
+        
+        * `Kevin Teague <http://bud.ca>`_ (Canada's Michael Smith Genome Sciences
+          Center) added support for multiple version control systems, most notable
+          Mercurial.
+        
+        * `Wouter vanden Hove <http://ugent.be>`_ (University of Gent) added
+          support for uploading to multiple servers, using collective.dist.
+        
+        * `Godefroid Chapelle <http://bubblenet.be>`_ (BubbleNet) added /tag besides
+          /tags for subversion.
+        
+        
+        Changelog for zest.releaser
+        ===========================
+        
+        3.43 (2013-02-04)
+        -----------------
+        
+        - Added ``--no-input`` commandline option for running automatically without
+          asking for input. Useful when started from some build tool. See the
+          documentation at the end of
+          http://zestreleaser.readthedocs.org/en/latest/uploading.html .
+          [reinout, based upon a patch by j-san]
+        
+        
+        3.42 (2013-01-07)
+        -----------------
+        
+        - When finding multiple version, changes or history files, pick the
+          one with the shortest path.
+          [maurits]
+        
+        - Support project-specific hooks listed in setup.cfg.
+          [iguananaut]
+        
+        
+        3.41 (2012-11-02)
+        -----------------
+        
+        - Getting the version from setup.py can give a traceback if the
+          setup.py has an error.  During prerelease this would result in a
+          proposed version of 'Traceback'.  Now we print the traceback and
+          quit.
+          [maurits]
+        
+        
+        3.40 (2012-10-13)
+        -----------------
+        
+        - Support svn (1.7+) checkouts that are not directly in the root. Only applies
+          when someone checks out a whole tree and wants to release one of the items
+          in a subdirectory. Fixes #27.
+        
+        
+        3.39 (2012-09-26)
+        -----------------
+        
+        - Only search for files in version control.  This is when finding a
+          history file or version.txt file.  We should not edit files that
+          are not in our package.  Fixes issue #22.
+          [maurits]
+        
+        
+        3.38 (2012-09-25)
+        -----------------
+        
+        - Fixed svn tag extraction on windows: a ``\r`` could end up at the
+          end of every tag name. Thanks Wouter Vanden Hove for reporting it!
+        
+        - Small fixes to the developers documentation and to the automatic `travis CI
+          <http://travis-ci.org/#!/zestsoftware/zest.releaser/>`_ tests configuration.
+        
+        
+        3.37 (2012-07-14)
+        -----------------
+        
+        - Documentation update! Started sphinx documentation at
+          `zestreleaser.readthedocs.org
+          <http://zestreleaser.readthedocs.org>`_. Removed documentation from the
+          README and put it into sphinx.
+        
+        - Actually ask if the user wants to continue with the release when
+          there is no MANIFEST.in.  We asked for a yes/no answer, but the
+          question was missing.
+          [maurits]
+        
+        
+        3.36 (2012-06-26)
+        -----------------
+        
+        - Improved changes/history file detection and fixed the documentation at this
+          point. We now recognize CHANGES, HISTORY and CHANGELOG with .rst, .txt,
+          .markdown and with no extension.
+        
+        - Set up `travis CI <http://travis-ci.org/#!/zestsoftware/zest.releaser/>`_
+          integration. Our tests pass on python 2.5, 2.6 and 2.7.
+        
+        
+        3.35 (2012-06-21)
+        -----------------
+        
+        - When checking for recommended files, ask if the user wants to
+          continue when we suspect the created PyPI release may be broken.
+          See issue #10.
+          [maurits]
+        
+        - Preserve existing EOL in setup.py and history file (See
+          http://docs.python.org/tutorial/inputoutput.html#reading-and-writing-files)
+          [tom_gross]
+        
+        
+        3.34 (2012-03-20)
+        -----------------
+        
+        - In the warning about a missing MANIFEST.in file, also suggest to
+          install setuptools_subversion/git, etc.
+          Fixes issue #4.
+          [maurits]
+        
+        
+        3.33 (2012-03-20)
+        -----------------
+        
+        - Fix python 2.4 issues with tarfile by always creating a zip file.
+          Formerly we would only do this when using python2.4 for doing the
+          release, but a tarball sdist created by python2.6 could still break
+          when the end user is using python 2.4.
+          [kiorky]
+        
+        
+        3.32 (2012-03-09)
+        -----------------
+        
+        - In prerelease recommend the user to add a MANIFEST.in file.
+          See http://docs.python.org/distutils/sourcedist.html for
+          more info.
+          [maurits]
+        
+        
+        3.31 (2012-02-23)
+        -----------------
+        
+        - Fixed test for unadvised egg_info commands on tag, which could
+          result in a ConfigParser error.
+          [maurits]
+        
+        
+        3.30 (2011-12-27)
+        -----------------
+        
+        - Added some more PyPI classifiers.  Tested with Python 2.4, 2,4, 2.6,
+          and 2.7.
+          [maurits]
+        
+        - Moved changes of 3.15 and older to docs/HISTORY.txt.
+          [maurits]
+        
+        - Added GPL license text in the package.
+          [maurits]
+        
+        - Updated README.txt.  Added MANIFEST.in.
+          [maurits]
+        
+        
+        3.29 (2011-12-27)
+        -----------------
+        
+        - In postrelease create a version number like 1.0.dev0.
+          See http://www.python.org/dev/peps/pep-0386
+          [maurits]
+        
+        - Offer to cleanup setup.cfg on the tag when releasing.  You do not
+          want tag_build or tag_svn_revision options in a release usually.
+          [maurits]
+        
+        - For convenience also print the tag checkout location when only doing
+          a release (instead of a fullrelease).
+          [maurits]
+        
+        
+        3.28 (2011-11-18)
+        -----------------
+        
+        - Git: in pre/postrelease only check for uncommitted changes in files
+          that are already tracked.
+          [maurits]
+        
+        
+        3.27 (2011-11-12)
+        -----------------
+        
+        - Postrelease now offers (=asks) to push your changes to the server if you're
+          using hg or git.
+        
+        - Support for some legacy projects, often converted from CVS, have multiple
+          subprojects under a single trunk. The trunk part from the top level project
+          isn't erroneously stripped out anymore. Thanks to Marc Sibson for the fix.
+        
+        
+        3.26 (2011-11-01)
+        -----------------
+        
+        - Added sanity check before doing a prerelease so you are warned when
+          you are about to commit on a tag instead of a branch (or trunk or
+          master).
+          [maurits]
+        
+        
+        3.25 (2011-10-28)
+        -----------------
+        
+        - Removed special handling of subversion lower than 1.7 when searching
+          for the history/changes file.  In corner cases it may be that we
+          find a wrong HISTORY.txt or CHANGES.txt file when you have it buried
+          deep in your directory structure.  Please move it to the root then,
+          which is the proper place for it.
+          [maurits]
+        
+        - Fixed finding a history/changes file that is in a sub directory when
+          using subversion 1.7 or higher or bazaar.
+          [maurits]
+        
+        
+        3.24 (2011-10-19)
+        -----------------
+        
+        - Note: you may need to install setuptools_subversion when you use
+          subversion 1.7.  If you suddenly start missing files in the sdists
+          you upload to PyPI you definitely need it.  Alternatively: set up a
+          proper MANIFEST.in as that method works with any version control
+          system.
+          [maurits]
+        
+        - Made compatible with subversion 1.7 (the only relevant change is in
+          the code that checks if a tags or tag directory already exists).
+          Earlier versions of subversion are of course still supported.
+          [maurits]
+        
+        - Code repository moved to github:
+          https://github.com/zestsoftware/zest.releaser
+          [maurits]
+        
+        
+        3.23 (2011-09-28)
+        -----------------
+        
+        - Fixed opening the html long description in ``longtest`` on Mac OS X
+          Lion or python2.7 by using a ``file://`` url.
+          Fixes https://bugs.launchpad.net/zest.releaser/+bug/858011
+          [maurits]
+        
+        .. # Note: for older changes see ``doc/sources/changelog.rst``.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 6 - Mature
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 2.4
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

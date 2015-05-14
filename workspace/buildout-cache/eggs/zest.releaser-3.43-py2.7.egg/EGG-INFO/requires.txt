@@ -1,0 +1,4 @@
+setuptools
+
+[test]
+z3c.testsetup

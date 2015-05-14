@@ -1,0 +1,3118 @@
+------
+2015-05-11T19:46:51 INFO ZServer HTTP server started at Mon May 11 19:46:51 2015
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2015-05-11T19:47:00 INFO ZEO.ClientStorage zeostorage ClientStorage (pid=3251) created RW/normal for storage: '1'
+------
+2015-05-11T19:47:00 INFO ZEO.cache created temporary cache file '<fdopen>'
+------
+2015-05-11T19:47:00 INFO ZEO.ClientStorage zeostorage Testing connection <ManagedClientConnection ('127.0.0.1', 8100)>
+------
+2015-05-11T19:47:00 INFO ZEO.zrpc.Connection(C) (127.0.0.1:8100) received handshake 'Z3101'
+------
+2015-05-11T19:47:00 INFO ZEO.ClientStorage zeostorage Server authentication protocol None
+------
+2015-05-11T19:47:00 INFO ZEO.ClientStorage zeostorage Connected to storage: ('localhost', 8100)
+------
+2015-05-11T19:47:00 INFO ZEO.ClientStorage zeostorage No verification necessary -- empty cache
+------
+2015-05-11T19:47:34 INFO Zope Ready to handle requests
+------
+2015-05-11T20:11:10 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:10 INFO GenericSetup.properties Site properties imported.
+------
+2015-05-11T20:11:10 INFO GenericSetup.toolset Toolset imported.
+------
+2015-05-11T20:11:10 INFO GenericSetup.catalog Catalog imported.
+------
+2015-05-11T20:11:10 INFO GenericSetup.workflow Workflow tool imported.
+------
+2015-05-11T20:11:10 INFO GenericSetup.componentregistry Adapters purged.
+------
+2015-05-11T20:11:10 INFO GenericSetup.componentregistry Subscribers purged.
+------
+2015-05-11T20:11:10 INFO GenericSetup.componentregistry Utilities purged.
+------
+2015-05-11T20:11:10 INFO GenericSetup.componentregistry Adapters registered.
+------
+2015-05-11T20:11:10 INFO GenericSetup.componentregistry Utilities registered.
+------
+2015-05-11T20:11:11 INFO GenericSetup.skins Skins tool imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.actions Actions tool imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.controlpanel Control panel imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup. ATCTTool settings imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.mailhost Mailhost imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.memberdata MemberData tool imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup. DiffTool settings imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.contenttypes Content type registry imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.plone.app.viewletmanager Imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.plone.app.registry Cannot find registry
+------
+2015-05-11T20:11:12 INFO GenericSetup.types Types tool imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'ATBooleanCriterion' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'ATCurrentAuthorCriterion' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'ATDateCriteria' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'ATDateRangeCriterion' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'ATListCriterion' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'ATPathCriterion' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'ATRelativePathCriterion' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'ATPortalTypeCriterion' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'ATReferenceCriterion' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'ATSelectionCriterion' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'ATSimpleIntCriterion' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'ATSimpleStringCriterion' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'ATSortCriterion' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'Discussion Item' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'Document' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'Event' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'File' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'Folder' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'Image' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'Link' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'News Item' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'Plone Site' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'TempFolder' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.types 'Topic' type info imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.factorytool FactoryTool settings imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.repositorytool Nothing to import.
+------
+2015-05-11T20:11:12 INFO GenericSetup.portlets Portlets imported
+------
+2015-05-11T20:11:12 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.toolset Toolset imported.
+------
+2015-05-11T20:11:12 INFO GenericSetup.plone.app.registry Cannot find registry
+------
+2015-05-11T20:11:12 INFO GenericSetup.repositorytool Nothing to import.
+------
+2015-05-11T20:11:12 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.toolset Toolset imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.componentregistry Adapters registered.
+------
+2015-05-11T20:11:13 INFO GenericSetup.componentregistry Utilities registered.
+------
+2015-05-11T20:11:13 INFO GenericSetup.skins Skins tool imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.plone.app.registry Cannot find registry
+------
+2015-05-11T20:11:13 INFO GenericSetup.repositorytool Nothing to import.
+------
+2015-05-11T20:11:13 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.toolset Toolset imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.componentregistry Adapters registered.
+------
+2015-05-11T20:11:13 INFO GenericSetup.componentregistry Utilities registered.
+------
+2015-05-11T20:11:13 INFO GenericSetup.plone.app.registry Cannot find registry
+------
+2015-05-11T20:11:13 INFO GenericSetup.repositorytool Nothing to import.
+------
+2015-05-11T20:11:13 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.toolset Toolset imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.skins Skins tool imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.plone.app.registry Cannot find registry
+------
+2015-05-11T20:11:13 INFO GenericSetup.repositorytool Nothing to import.
+------
+2015-05-11T20:11:13 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.toolset Toolset imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.catalog Catalog imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.componentregistry Adapters registered.
+------
+2015-05-11T20:11:13 INFO GenericSetup.componentregistry Utilities registered.
+------
+2015-05-11T20:11:13 INFO GenericSetup.skins Skins tool imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.plone.app.registry Cannot find registry
+------
+2015-05-11T20:11:13 INFO GenericSetup.action-icons Action icons tool settings imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup. RepositoryTool settings imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.toolset Toolset imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.skins Skins tool imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.plone.app.registry Cannot find registry
+------
+2015-05-11T20:11:13 INFO GenericSetup.portal_languages Plone language tool imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:13 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:13 INFO PluggableAuthService.upgrade.replaceRootUserFolder Capturing user info for admin
+
+------
+2015-05-11T20:11:13 INFO PluggableAuthService.upgrade.replaceRootUserFolder Translating user admin
+
+------
+2015-05-11T20:11:13 INFO PluggableAuthService.upgrade.replaceRootUserFolder Replaced root acl_users with PluggableAuthService
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_setup)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/MailHost)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/caching_policy_manager)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/content_type_registry)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/error_log)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/plone_utils)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actionicons)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/document_actions)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/document_actions/rss)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/document_actions/print)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/document_actions/full_screen)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/document_actions/extedit)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/site_actions)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/site_actions/sitemap)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/site_actions/accessibility)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/site_actions/contact)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/site_actions/plone_setup)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/folder_buttons)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/folder_buttons/copy)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/folder_buttons/cut)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/folder_buttons/rename)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/folder_buttons/paste)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/folder_buttons/delete)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/folder_buttons/change_state)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/object)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/object/folderContents)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/object/syndication)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/object/contentrules)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/object/local_roles)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/object_buttons)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/object_buttons/cut)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/object_buttons/copy)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/object_buttons/paste)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/object_buttons/delete)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/object_buttons/rename)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/portal_tabs)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/portal_tabs/index_html)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/user)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/user/preferences)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/user/login)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/user/join)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/user/undo)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_actions/user/logout)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_atct)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_calendar)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_catalog)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_catalog/htmltext_lexicon)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_catalog/plaintext_lexicon)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_catalog/plone_lexicon)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_controlpanel)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_css)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_diff)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_discussion)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_factory)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_groupdata)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_groups)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_interface)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_javascripts)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_memberdata)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_membership)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_metadata)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_migration)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_password_reset)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_properties)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_properties/navtree_properties)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_properties/site_properties)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_quickinstaller)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_registration)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/ATContentTypes)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   -- Set savepoint at object # 100
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/referencebrowser)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/LanguageTool)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/archetypes)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   -- Set savepoint at object # 200
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/cmf_legacy)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/custom)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/PasswordReset)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/mimetypes_icons)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/plone_3rdParty)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   -- Set savepoint at object # 300
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/plone_content)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/plone_deprecated)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   -- Set savepoint at object # 400
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   -- Set savepoint at object # 500
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/plone_ecmascript)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/plone_form_scripts)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/plone_forms)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   -- Set savepoint at object # 600
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/plone_images)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   -- Set savepoint at object # 700
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/plone_login)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/plone_prefs)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/plone_scripts)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   -- Set savepoint at object # 800
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/plone_templates)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/plone_styles)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/plone_wysiwyg)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/CMFEditions)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_skins/cmfeditions_views)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/ATBooleanCriterion)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/ATCurrentAuthorCriterion)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/ATDateCriteria)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/ATDateRangeCriterion)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/ATListCriterion)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/ATPathCriterion)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/ATRelativePathCriterion)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/ATPortalTypeCriterion)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/ATReferenceCriterion)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/ATSelectionCriterion)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/ATSimpleIntCriterion)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/ATSimpleStringCriterion)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/ATSortCriterion)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/Discussion Item)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/Document)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/Event)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/File)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/Folder)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/Image)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/Link)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/News Item)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/Plone Site)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/TempFolder)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_types/Topic)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   -- Set savepoint at object # 900
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_uidannotation)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_uidgenerator)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_uidhandler)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_undo)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_url)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_view_customizations)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/folder_workflow)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/folder_workflow/states/visible)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/folder_workflow/states/private)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/folder_workflow/states/published)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/folder_workflow/transitions/retract)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/folder_workflow/transitions/hide)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/folder_workflow/transitions/publish)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/folder_workflow/transitions/show)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/folder_workflow/variables/action)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/folder_workflow/variables/time)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/folder_workflow/variables/comments)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/folder_workflow/variables/actor)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/folder_workflow/variables/review_history)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_folder_workflow)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_folder_workflow/states/internal)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_folder_workflow/states/private)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_folder_workflow/transitions/hide)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_folder_workflow/transitions/show_internally)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_folder_workflow/variables/action)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_folder_workflow/variables/time)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_folder_workflow/variables/comments)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_folder_workflow/variables/actor)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_folder_workflow/variables/review_history)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/states/internally_published)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/states/internal)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/states/private)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/states/pending)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/states/external)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/transitions/hide)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/transitions/submit)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/transitions/show_internally)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/transitions/publish_internally)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/transitions/reject)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/transitions/retract)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/transitions/publish_externally)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/variables/action)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/variables/time)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/variables/comments)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/variables/actor)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/variables/review_history)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/intranet_workflow/worklists/reviewer_queue)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/one_state_workflow)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/one_state_workflow/states/published)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/one_state_workflow/variables/action)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/one_state_workflow/variables/time)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/one_state_workflow/variables/comments)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/one_state_workflow/variables/actor)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/one_state_workflow/variables/review_history)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/states/visible)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/states/private)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/states/pending)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/states/published)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/transitions/hide)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/transitions/show)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/transitions/submit)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/transitions/publish)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/transitions/reject)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/transitions/retract)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/variables/action)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/variables/time)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/variables/comments)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/variables/actor)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/variables/review_history)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/plone_workflow/worklists/reviewer_queue)
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:14 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/simple_publication_workflow)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   -- Set savepoint at object # 1000
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/simple_publication_workflow/states/private)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/simple_publication_workflow/states/pending)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/simple_publication_workflow/states/published)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/simple_publication_workflow/transitions/retract)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/simple_publication_workflow/transitions/submit)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/simple_publication_workflow/transitions/publish)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/simple_publication_workflow/transitions/reject)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/simple_publication_workflow/variables/action)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/simple_publication_workflow/variables/time)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/simple_publication_workflow/variables/comments)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/simple_publication_workflow/variables/actor)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/simple_publication_workflow/variables/review_history)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_workflow/simple_publication_workflow/worklists/reviewer_queue)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/translation_service)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_form_controller)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/mimetypes_registry)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/st_to_html)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/rest_to_html)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/word_to_html)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/safe_html)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/html_body)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/html_to_text)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/text_to_html)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/text-pre_to_html)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/image_to_png)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/image_to_gif)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/image_to_jpeg)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/image_to_pcx)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/image_to_ppm)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/image_to_tiff)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/image_to_bmp)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/python_to_html)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/rest_to_text)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/markdown_to_html)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/textile_to_html)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/web_intelligent_plain_text_to_html)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_transforms/html_to_web_intelligent_plain_text)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/archetype_tool)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/reference_catalog)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/uid_catalog)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_archivist)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_historiesstorage)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_historyidhandler)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/OMInsideChildrensModifier)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/OMOutsideChildrensModifier)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/RetainUIDs)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/RetainATRefs)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/NotRetainATRefs)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/RetainWorkflowStateAndHistory)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/RetainPermissionsSettings)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/SaveFileDataInFileTypeByReference)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/SillyDemoRetrieveModifier)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/SkipParentPointers)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/SkipRegistryBasesPointers)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/AbortVersioningOfLargeFilesAndImages)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/SkipVersioningOfLargeFilesAndImages)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/SkipBlobs)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/CloneBlobs)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_modifier/Skip_z3c_blobfile)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_purgepolicy)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_referencefactories)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_repository)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/portal_languages)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/free-software-in-schools/acl_users)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Translated admin to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot   Assigned roles ['Owner'] to admin
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot Local Roles map changed for (/acl_users)
+
+------
+2015-05-11T20:11:15 INFO PluggableAuthService.upgrade.replace_acl_users Root acl_users has been replaced, and local role assignments updated.
+
+------
+2015-05-11T20:11:15 INFO GenericSetup.plone.app.registry Cannot find registry
+------
+2015-05-11T20:11:15 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:15 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:15 INFO GenericSetup.plone.app.registry Cannot find registry
+------
+2015-05-11T20:11:15 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:15 INFO GenericSetup.controlpanel Control panel imported.
+------
+2015-05-11T20:11:15 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:15 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2015-05-11T20:11:15 INFO GenericSetup.plone.app.registry Cannot find registry
+------
+2015-05-11T20:11:15 INFO GenericSetup.action-icons Action icons tool settings imported.
+------
+2015-05-11T20:11:15 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:15 INFO GenericSetup.toolset Toolset imported.
+------
+2015-05-11T20:11:15 INFO GenericSetup.componentregistry Adapters registered.
+------
+2015-05-11T20:11:15 INFO GenericSetup.componentregistry Utilities registered.
+------
+2015-05-11T20:11:15 INFO GenericSetup.skins Skins tool imported.
+------
+2015-05-11T20:11:17 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2015-05-11T20:11:17 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2015-05-11T20:11:17 INFO GenericSetup.controlpanel Control panel imported.
+------
+2015-05-11T20:11:17 INFO GenericSetup.portal_tinymce TinyMCE Settings imported.
+------
+2015-05-11T20:11:17 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:17 INFO GenericSetup.plone.app.registry Cannot find registry
+------
+2015-05-11T20:11:17 INFO GenericSetup.action-icons Action icons tool settings imported.
+------
+2015-05-11T20:11:17 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:17 INFO GenericSetup.skins Skins tool imported.
+------
+2015-05-11T20:11:17 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:17 INFO GenericSetup.plone.app.registry Cannot find registry
+------
+2015-05-11T20:11:17 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:17 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:17 INFO GenericSetup.browserlayer Browser layers imported
+------
+2015-05-11T20:11:17 INFO GenericSetup.plone.app.registry Cannot find registry
+------
+2015-05-11T20:11:18 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.toolset Toolset imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.componentregistry Adapters registered.
+------
+2015-05-11T20:11:18 INFO GenericSetup.componentregistry Utilities registered.
+------
+2015-05-11T20:11:18 INFO GenericSetup.controlpanel Control panel imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.skins Skins tool imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:18 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.types Types tool imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.types 'Collection' type info imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.factorytool FactoryTool settings imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.toolset Toolset imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.catalog Catalog imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.workflow Workflow tool imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.componentregistry Utilities registered.
+------
+2015-05-11T20:11:19 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.actions Actions tool imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.controlpanel Control panel imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup. ATCTTool settings imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.browserlayer Browser layers imported
+------
+2015-05-11T20:11:19 INFO GenericSetup.types Types tool imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.types 'Discussion Item' type info imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:19 INFO GenericSetup.portlets Portlets imported
+------
+2015-05-11T20:11:19 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:20 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:20 INFO GenericSetup.portlets Portlets imported
+------
+2015-05-11T20:11:20 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:20 INFO GenericSetup.componentregistry Utilities registered.
+------
+2015-05-11T20:11:20 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:20 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:20 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:20 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:20 INFO GenericSetup.controlpanel Control panel imported.
+------
+2015-05-11T20:11:20 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:20 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:20 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:20 INFO GenericSetup.portlets Portlets imported
+------
+2015-05-11T20:11:21 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:21 INFO GenericSetup.skins Skins tool imported.
+------
+2015-05-11T20:11:21 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2015-05-11T20:11:21 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T20:11:21 INFO GenericSetup.plone.app.viewletmanager Imported.
+------
+2015-05-11T20:11:21 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2015-05-11T20:11:21 INFO GenericSetup.skins Skins tool imported.
+------
+2015-05-11T20:11:22 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2015-05-11T20:11:22 INFO GenericSetup.actions Actions tool imported.
+------
+2015-05-11T20:11:22 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2015-05-11T21:00:46 INFO SignalHandler Caught signal SIGHUP
+------
+2015-05-11T21:00:46 INFO Z2 Restarting
+------
+2015-05-11T21:00:46 INFO SignalHandler Caught signal SIGTERM
+------
+2015-05-11T21:00:46 INFO Z2 Shutting down fast
+------
+2015-05-11T21:00:46 INFO ZServer closing HTTP to new connections
+------
+2015-05-11T21:00:46 INFO ZEO.ClientStorage zeostorage Disconnected from storage: "('localhost', 8100)"
+------
+2015-05-12T04:48:32 INFO ZServer HTTP server started at Tue May 12 04:48:32 2015
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2015-05-12T04:48:36 INFO ZEO.ClientStorage zeostorage ClientStorage (pid=403) created RW/normal for storage: '1'
+------
+2015-05-12T04:48:36 INFO ZEO.cache created temporary cache file '<fdopen>'
+------
+2015-05-12T04:48:36 INFO ZEO.ClientStorage zeostorage Testing connection <ManagedClientConnection ('127.0.0.1', 8100)>
+------
+2015-05-12T04:48:36 INFO ZEO.zrpc.Connection(C) (127.0.0.1:8100) received handshake 'Z3101'
+------
+2015-05-12T04:48:36 INFO ZEO.ClientStorage zeostorage Server authentication protocol None
+------
+2015-05-12T04:48:36 INFO ZEO.ClientStorage zeostorage Connected to storage: ('localhost', 8100)
+------
+2015-05-12T04:48:36 INFO ZEO.ClientStorage zeostorage No verification necessary -- empty cache
+------
+2015-05-12T04:48:47 INFO Zope Ready to handle requests
+------
+2015-05-12T04:58:25 INFO SignalHandler Caught signal SIGHUP
+------
+2015-05-12T04:58:25 INFO Z2 Restarting
+------
+2015-05-12T04:58:25 INFO ZServer closing HTTP to new connections
+------
+2015-05-12T04:58:25 INFO ZEO.ClientStorage zeostorage Disconnected from storage: "('localhost', 8100)"
+------
+2015-05-12T18:21:09 INFO ZServer HTTP server started at Tue May 12 18:21:09 2015
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2015-05-12T18:21:13 INFO ZEO.ClientStorage zeostorage ClientStorage (pid=404) created RW/normal for storage: '1'
+------
+2015-05-12T18:21:13 INFO ZEO.cache created temporary cache file '<fdopen>'
+------
+2015-05-12T18:21:13 INFO ZEO.ClientStorage zeostorage Testing connection <ManagedClientConnection ('127.0.0.1', 8100)>
+------
+2015-05-12T18:21:13 INFO ZEO.zrpc.Connection(C) (127.0.0.1:8100) received handshake 'Z3101'
+------
+2015-05-12T18:21:13 INFO ZEO.ClientStorage zeostorage Server authentication protocol None
+------
+2015-05-12T18:21:13 INFO ZEO.ClientStorage zeostorage Connected to storage: ('localhost', 8100)
+------
+2015-05-12T18:21:13 INFO ZEO.ClientStorage zeostorage No verification necessary -- empty cache
+------
+2015-05-12T18:21:24 INFO Zope Ready to handle requests
+------
+2015-05-12T19:50:07 ERROR Zope.SiteErrorLog 1431460207.040.743385605051 http://linux-info-225113.euw1-2.nitrousbox.com:8080/free-software-in-schools/portal_skins/custom/logo.jpg/manage_upload
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module OFS.Image, line 493, in manage_upload
+  Module OFS.Image, line 526, in _read_data
+ValueError: File not specified
+------
+2015-05-12T20:00:41 INFO SignalHandler Caught signal SIGHUP
+------
+2015-05-12T20:00:41 INFO Z2 Restarting
+------
+2015-05-12T20:00:41 INFO SignalHandler Caught signal SIGTERM
+------
+2015-05-12T20:00:41 INFO Z2 Shutting down fast
+------
+2015-05-12T20:00:41 INFO ZServer closing HTTP to new connections
+------
+2015-05-12T20:00:41 INFO ZEO.ClientStorage zeostorage Disconnected from storage: "('localhost', 8100)"
+------
+2015-05-12T20:03:48 INFO ZServer HTTP server started at Tue May 12 20:03:48 2015
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2015-05-12T20:03:53 INFO ZEO.ClientStorage zeostorage ClientStorage (pid=405) created RW/normal for storage: '1'
+------
+2015-05-12T20:03:53 INFO ZEO.cache created temporary cache file '<fdopen>'
+------
+2015-05-12T20:03:53 INFO ZEO.ClientStorage zeostorage Testing connection <ManagedClientConnection ('127.0.0.1', 8100)>
+------
+2015-05-12T20:03:53 INFO ZEO.zrpc.Connection(C) (127.0.0.1:8100) received handshake 'Z3101'
+------
+2015-05-12T20:03:53 INFO ZEO.ClientStorage zeostorage Server authentication protocol None
+------
+2015-05-12T20:03:53 INFO ZEO.ClientStorage zeostorage Connected to storage: ('localhost', 8100)
+------
+2015-05-12T20:03:53 INFO ZEO.ClientStorage zeostorage No verification necessary -- empty cache
+------
+2015-05-12T20:04:04 INFO Zope Ready to handle requests
+------
+2015-05-12T20:17:28 INFO SignalHandler Caught signal SIGHUP
+------
+2015-05-12T20:17:28 INFO Z2 Restarting
+------
+2015-05-12T20:17:28 INFO ZServer closing HTTP to new connections
+------
+2015-05-12T20:17:28 INFO ZEO.ClientStorage zeostorage Disconnected from storage: "('localhost', 8100)"
+------
+2015-05-12T20:21:35 INFO ZServer HTTP server started at Tue May 12 20:21:35 2015
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2015-05-12T20:21:39 INFO ZEO.ClientStorage zeostorage ClientStorage (pid=477) created RW/normal for storage: '1'
+------
+2015-05-12T20:21:39 INFO ZEO.cache created temporary cache file '<fdopen>'
+------
+2015-05-12T20:21:39 INFO ZEO.ClientStorage zeostorage Testing connection <ManagedClientConnection ('127.0.0.1', 8100)>
+------
+2015-05-12T20:21:39 INFO ZEO.zrpc.Connection(C) (127.0.0.1:8100) received handshake 'Z3101'
+------
+2015-05-12T20:21:39 INFO ZEO.ClientStorage zeostorage Server authentication protocol None
+------
+2015-05-12T20:21:39 INFO ZEO.ClientStorage zeostorage Connected to storage: ('localhost', 8100)
+------
+2015-05-12T20:21:39 INFO ZEO.ClientStorage zeostorage No verification necessary -- empty cache
+------
+2015-05-12T20:21:49 INFO Zope Ready to handle requests
+------
+2015-05-12T20:30:06 ERROR Zope.SiteErrorLog 1431462606.570.947622433552 http://linux-info-225113.euw1-2.nitrousbox.com:8080/free-software-in-schools/portal_skins/custom/logo.jpg/manage_addProperty
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module OFS.PropertyManager, line 285, in manage_addProperty
+  Module OFS.PropertyManager, line 184, in _setProperty
+BadRequest: Invalid or duplicate property id
+------
+2015-05-12T20:54:37 INFO SignalHandler Caught signal SIGHUP
+------
+2015-05-12T20:54:37 INFO Z2 Restarting
+------
+2015-05-12T20:54:37 INFO ZServer closing HTTP to new connections
+------
+2015-05-12T20:54:37 INFO ZEO.ClientStorage zeostorage Disconnected from storage: "('localhost', 8100)"
+------
+2015-05-12T20:54:52 INFO ZServer HTTP server started at Tue May 12 20:54:52 2015
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2015-05-12T20:54:57 INFO ZEO.ClientStorage zeostorage ClientStorage (pid=523) created RW/normal for storage: '1'
+------
+2015-05-12T20:54:57 INFO ZEO.cache created temporary cache file '<fdopen>'
+------
+2015-05-12T20:54:57 INFO ZEO.ClientStorage zeostorage Testing connection <ManagedClientConnection ('127.0.0.1', 8100)>
+------
+2015-05-12T20:54:57 INFO ZEO.zrpc.Connection(C) (127.0.0.1:8100) received handshake 'Z3101'
+------
+2015-05-12T20:54:57 INFO ZEO.ClientStorage zeostorage Server authentication protocol None
+------
+2015-05-12T20:54:57 INFO ZEO.ClientStorage zeostorage Connected to storage: ('localhost', 8100)
+------
+2015-05-12T20:54:57 INFO ZEO.ClientStorage zeostorage No verification necessary -- empty cache
+------
+2015-05-12T20:55:07 INFO Zope Ready to handle requests
+------
+2015-05-12T20:57:21 INFO SignalHandler Caught signal SIGHUP
+------
+2015-05-12T20:57:21 INFO Z2 Restarting
+------
+2015-05-12T20:57:21 INFO ZServer closing HTTP to new connections
+------
+2015-05-12T20:57:21 INFO ZEO.ClientStorage zeostorage Disconnected from storage: "('localhost', 8100)"
+------
+2015-05-12T20:57:36 INFO ZServer HTTP server started at Tue May 12 20:57:36 2015
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2015-05-12T20:57:40 INFO ZEO.ClientStorage zeostorage ClientStorage (pid=564) created RW/normal for storage: '1'
+------
+2015-05-12T20:57:40 INFO ZEO.cache created temporary cache file '<fdopen>'
+------
+2015-05-12T20:57:40 INFO ZEO.ClientStorage zeostorage Testing connection <ManagedClientConnection ('127.0.0.1', 8100)>
+------
+2015-05-12T20:57:40 INFO ZEO.zrpc.Connection(C) (127.0.0.1:8100) received handshake 'Z3101'
+------
+2015-05-12T20:57:40 INFO ZEO.ClientStorage zeostorage Server authentication protocol None
+------
+2015-05-12T20:57:40 INFO ZEO.ClientStorage zeostorage Connected to storage: ('localhost', 8100)
+------
+2015-05-12T20:57:40 INFO ZEO.ClientStorage zeostorage No verification necessary -- empty cache
+------
+2015-05-12T20:57:50 INFO Zope Ready to handle requests
+------
+2015-05-12T21:10:56 INFO ApplicationManager Shutdown requested by "admin"
+------
+2015-05-12T21:10:56 INFO ZServer closing HTTP to new connections
+------
+2015-05-12T21:10:56 INFO ZEO.ClientStorage zeostorage Disconnected from storage: "('localhost', 8100)"
+------
+2015-05-12T21:12:18 INFO ZServer HTTP server started at Tue May 12 21:12:18 2015
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2015-05-12T21:12:22 INFO ZEO.ClientStorage zeostorage ClientStorage (pid=618) created RW/normal for storage: '1'
+------
+2015-05-12T21:12:22 INFO ZEO.cache created temporary cache file '<fdopen>'
+------
+2015-05-12T21:12:22 INFO ZEO.ClientStorage zeostorage Testing connection <ManagedClientConnection ('127.0.0.1', 8100)>
+------
+2015-05-12T21:12:23 INFO ZEO.zrpc.Connection(C) (127.0.0.1:8100) received handshake 'Z3101'
+------
+2015-05-12T21:12:23 INFO ZEO.ClientStorage zeostorage Server authentication protocol None
+------
+2015-05-12T21:12:23 INFO ZEO.ClientStorage zeostorage Connected to storage: ('localhost', 8100)
+------
+2015-05-12T21:12:23 INFO ZEO.ClientStorage zeostorage No verification necessary -- empty cache
+------
+2015-05-12T21:12:33 INFO Zope Ready to handle requests
+------
+2015-05-12T21:16:18 ERROR Zope.SiteErrorLog 1431465378.880.469495501392 http://linux-info-225113.euw1-2.nitrousbox.com:8080/free-software-in-schools/portal_skins/custom/logo.jpg/manage_upload
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module OFS.Image, line 493, in manage_upload
+  Module OFS.Image, line 526, in _read_data
+ValueError: File not specified
+------
+2015-05-12T21:22:31 INFO SignalHandler Caught signal SIGHUP
+------
+2015-05-12T21:22:31 INFO Z2 Restarting
+------
+2015-05-12T21:22:31 INFO ZServer closing HTTP to new connections
+------
+2015-05-12T21:22:31 INFO ZEO.ClientStorage zeostorage Disconnected from storage: "('localhost', 8100)"
+------
+2015-05-12T21:24:14 INFO ZServer HTTP server started at Tue May 12 21:24:14 2015
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2015-05-12T21:24:18 INFO ZEO.ClientStorage zeostorage ClientStorage (pid=663) created RW/normal for storage: '1'
+------
+2015-05-12T21:24:18 INFO ZEO.cache created temporary cache file '<fdopen>'
+------
+2015-05-12T21:24:18 INFO ZEO.ClientStorage zeostorage Testing connection <ManagedClientConnection ('127.0.0.1', 8100)>
+------
+2015-05-12T21:24:18 INFO ZEO.zrpc.Connection(C) (127.0.0.1:8100) received handshake 'Z3101'
+------
+2015-05-12T21:24:18 INFO ZEO.ClientStorage zeostorage Server authentication protocol None
+------
+2015-05-12T21:24:18 INFO ZEO.ClientStorage zeostorage Connected to storage: ('localhost', 8100)
+------
+2015-05-12T21:24:18 INFO ZEO.ClientStorage zeostorage No verification necessary -- empty cache
+------
+2015-05-12T21:24:28 INFO Zope Ready to handle requests
+------
+2015-05-12T21:28:30 INFO SignalHandler Caught signal SIGHUP
+------
+2015-05-12T21:28:30 INFO Z2 Restarting
+------
+2015-05-12T21:28:30 INFO ZServer closing HTTP to new connections
+------
+2015-05-12T21:28:30 INFO ZEO.ClientStorage zeostorage Disconnected from storage: "('localhost', 8100)"
+------
+2015-05-12T21:39:38 INFO ZServer HTTP server started at Tue May 12 21:39:38 2015
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2015-05-12T21:39:42 INFO ZEO.ClientStorage zeostorage ClientStorage (pid=404) created RW/normal for storage: '1'
+------
+2015-05-12T21:39:42 INFO ZEO.cache created temporary cache file '<fdopen>'
+------
+2015-05-12T21:39:42 INFO ZEO.ClientStorage zeostorage Testing connection <ManagedClientConnection ('127.0.0.1', 8100)>
+------
+2015-05-12T21:39:42 INFO ZEO.zrpc.Connection(C) (127.0.0.1:8100) received handshake 'Z3101'
+------
+2015-05-12T21:39:42 INFO ZEO.ClientStorage zeostorage Server authentication protocol None
+------
+2015-05-12T21:39:42 INFO ZEO.ClientStorage zeostorage Connected to storage: ('localhost', 8100)
+------
+2015-05-12T21:39:42 INFO ZEO.ClientStorage zeostorage No verification necessary -- empty cache
+------
+2015-05-12T21:39:53 INFO Zope Ready to handle requests
+------
+2015-05-12T21:57:24 ERROR Zope.SiteErrorLog 1431467844.380.136050452203 http://linux-info-225113.euw1-2.nitrousbox.com:8080/free-software-in-schools/portal_skins/custom/logo.jpg/manage_upload
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module OFS.Image, line 493, in manage_upload
+  Module OFS.Image, line 526, in _read_data
+ValueError: File not specified
+------
+2015-05-12T23:01:15 INFO SignalHandler Caught signal SIGHUP
+------
+2015-05-12T23:01:15 INFO Z2 Restarting
+------
+2015-05-12T23:01:15 INFO ZServer closing HTTP to new connections
+------
+2015-05-12T23:01:15 INFO ZEO.ClientStorage zeostorage Disconnected from storage: "('localhost', 8100)"
+------
+2015-05-12T23:01:15 INFO SignalHandler Caught signal SIGTERM
+------
+2015-05-12T23:01:15 INFO Z2 Shutting down fast
+------
+2015-05-12T23:04:22 INFO ZServer HTTP server started at Tue May 12 23:04:22 2015
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2015-05-12T23:04:26 INFO ZEO.ClientStorage zeostorage ClientStorage (pid=405) created RW/normal for storage: '1'
+------
+2015-05-12T23:04:26 INFO ZEO.cache created temporary cache file '<fdopen>'
+------
+2015-05-12T23:04:26 INFO ZEO.ClientStorage zeostorage Testing connection <ManagedClientConnection ('127.0.0.1', 8100)>
+------
+2015-05-12T23:04:26 INFO ZEO.zrpc.Connection(C) (127.0.0.1:8100) received handshake 'Z3101'
+------
+2015-05-12T23:04:26 INFO ZEO.ClientStorage zeostorage Server authentication protocol None
+------
+2015-05-12T23:04:26 INFO ZEO.ClientStorage zeostorage Connected to storage: ('localhost', 8100)
+------
+2015-05-12T23:04:26 INFO ZEO.ClientStorage zeostorage No verification necessary -- empty cache
+------
+2015-05-12T23:04:37 INFO Zope Ready to handle requests
+------
+2015-05-12T23:35:57 INFO SignalHandler Caught signal SIGHUP
+------
+2015-05-12T23:35:57 INFO Z2 Restarting
+------
+2015-05-12T23:35:57 INFO ZServer closing HTTP to new connections
+------
+2015-05-12T23:35:57 INFO ZEO.ClientStorage zeostorage Disconnected from storage: "('localhost', 8100)"

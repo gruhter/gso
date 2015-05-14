@@ -1,0 +1,154 @@
+Detailed installation log
+Starting at Mon May 11 19:38:18 UTC 2015
+Creating directory '/home/action/workspace/zeocluster/parts'.
+Creating directory '/home/action/workspace/zeocluster/develop-eggs'.
+Getting distribution for 'ZODB3==3.10.5'.
+In file included from src/BTrees/BTreeModuleTemplate.c:394:0,
+                 from src/BTrees/_IIBTree.c:34:
+src/BTrees/BucketTemplate.c: In function ‘bucket_traverse’:
+src/BTrees/BucketTemplate.c:1627:12: warning: variable ‘len’ set but not used [-Wunused-but-set-variable]
+In file included from src/BTrees/BTreeModuleTemplate.c:394:0,
+                 from src/BTrees/_IFBTree.c:34:
+src/BTrees/BucketTemplate.c: In function ‘bucket_traverse’:
+src/BTrees/BucketTemplate.c:1627:12: warning: variable ‘len’ set but not used [-Wunused-but-set-variable]
+In file included from src/BTrees/BTreeModuleTemplate.c:394:0,
+                 from src/BTrees/_fsBTree.c:83:
+src/BTrees/BucketTemplate.c: In function ‘bucket_traverse’:
+src/BTrees/BucketTemplate.c:1627:12: warning: variable ‘len’ set but not used [-Wunused-but-set-variable]
+In file included from src/BTrees/BTreeModuleTemplate.c:394:0,
+                 from src/BTrees/_LLBTree.c:36:
+src/BTrees/BucketTemplate.c: In function ‘bucket_traverse’:
+src/BTrees/BucketTemplate.c:1627:12: warning: variable ‘len’ set but not used [-Wunused-but-set-variable]
+In file included from src/BTrees/BTreeModuleTemplate.c:394:0,
+                 from src/BTrees/_LFBTree.c:36:
+src/BTrees/BucketTemplate.c: In function ‘bucket_traverse’:
+src/BTrees/BucketTemplate.c:1627:12: warning: variable ‘len’ set but not used [-Wunused-but-set-variable]
+Got ZODB3 3.10.5.
+Getting distribution for 'zope.interface==3.6.7'.
+Got zope.interface 3.6.7.
+Getting distribution for 'zope.security==3.7.4'.
+Got zope.security 3.7.4.
+Getting distribution for 'zope.proxy==3.6.1'.
+Got zope.proxy 3.6.1.
+Getting distribution for 'zope.i18nmessageid==3.5.3'.
+Got zope.i18nmessageid 3.5.3.
+Getting distribution for 'zope.container==3.11.2'.
+Got zope.container 3.11.2.
+Getting distribution for 'initgroups==2.13.0'.
+Got initgroups 2.13.0.
+Getting distribution for 'Record==2.13.0'.
+Got Record 2.13.0.
+Getting distribution for 'Products.ZCTextIndex==2.13.4'.
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+src/Products/ZCTextIndex/okascore.c: In function ‘initokascore’:
+src/Products/ZCTextIndex/okascore.c:127:12: warning: variable ‘m’ set but not used [-Wunused-but-set-variable]
+Got Products.ZCTextIndex 2.13.4.
+Getting distribution for 'Persistence==2.13.2'.
+Got Persistence 2.13.2.
+Getting distribution for 'MultiMapping==2.13.0'.
+src/MultiMapping/_MultiMapping.c:159:2: warning: initialization from incompatible pointer type [enabled by default]
+src/MultiMapping/_MultiMapping.c:159:2: warning: (near initialization for ‘MM_as_mapping.mp_length’) [enabled by default]
+Got MultiMapping 2.13.0.
+Getting distribution for 'Missing==2.13.1'.
+Got Missing 2.13.1.
+Getting distribution for 'ExtensionClass==2.13.2'.
+Got ExtensionClass 2.13.2.
+Getting distribution for 'DocumentTemplate==2.13.2'.
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+src/DocumentTemplate/cDocumentTemplate.c:169:3: warning: initialization from incompatible pointer type [enabled by default]
+src/DocumentTemplate/cDocumentTemplate.c:169:3: warning: (near initialization for ‘InstanceDict_as_mapping.mp_length’) [enabled by default]
+src/DocumentTemplate/cDocumentTemplate.c:600:2: warning: initialization from incompatible pointer type [enabled by default]
+src/DocumentTemplate/cDocumentTemplate.c:600:2: warning: (near initialization for ‘MM_as_mapping.mp_length’) [enabled by default]
+Got DocumentTemplate 2.13.2.
+Getting distribution for 'Acquisition==2.13.8'.
+Got Acquisition 2.13.8.
+Getting distribution for 'AccessControl==3.0.8'.
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+Got AccessControl 3.0.8.
+Installing zeoserver.
+Created directory /home/action/workspace/zeocluster/parts/zeoserver
+Created directory /home/action/workspace/zeocluster/parts/zeoserver/etc
+Created directory /home/action/workspace/zeocluster/parts/zeoserver/var
+Created directory /home/action/workspace/zeocluster/parts/zeoserver/log
+Created directory /home/action/workspace/zeocluster/parts/zeoserver/bin
+Wrote file /home/action/workspace/zeocluster/parts/zeoserver/etc/zeo.conf
+Wrote file /home/action/workspace/zeocluster/parts/zeoserver/bin/zeoctl
+Changed mode for /home/action/workspace/zeocluster/parts/zeoserver/bin/zeoctl to 755
+Wrote file /home/action/workspace/zeocluster/parts/zeoserver/bin/runzeo
+Changed mode for /home/action/workspace/zeocluster/parts/zeoserver/bin/runzeo to 755
+Generated script '/home/action/workspace/zeocluster/bin/zeoserver'.
+Generated script '/home/action/workspace/zeocluster/bin/zeopack'.
+Generated script '/home/action/workspace/zeocluster/bin/repozo'.
+Installing client1.
+Getting distribution for 'Pillow==1.7.8'.
+warning: no previously-included files found matching '.hgignore'
+warning: no previously-included files found matching '.hgtags'
+warning: no previously-included files found matching 'BUILDME.bat'
+warning: no previously-included files found matching 'make-manifest.py'
+warning: no previously-included files found matching 'SHIP'
+warning: no previously-included files found matching 'SHIP.bat'
+warning: no previously-included files matching '*' found under directory 'Tests'
+_imaging.c:3017:5: warning: initialization from incompatible pointer type [enabled by default]
+_imaging.c:3017:5: warning: (near initialization for ‘image_as_sequence.sq_length’) [enabled by default]
+_imaging.c:3077:5: warning: initialization from incompatible pointer type [enabled by default]
+_imaging.c:3077:5: warning: (near initialization for ‘pixel_access_as_mapping.mp_length’) [enabled by default]
+libImaging/Quant.c: In function ‘rehash_collide’:
+libImaging/Quant.c:154:10: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+zip_safe flag not set; analyzing archive contents...
+PIL.Image: module references __file__
+--------------------------------------------------------------------
+SETUP SUMMARY (Pillow 1.7.8 / PIL 1.1.7)
+--------------------------------------------------------------------
+version      1.7.8
+platform     linux2 2.7.6 (default, May 20 2014, 07:55:28)
+             [GCC 4.6.3]
+--------------------------------------------------------------------
+*** TKINTER support not available
+
+--- JPEG support available
+--- ZLIB (PNG/ZIP) support available
+--- FREETYPE2 support available
+--- LITTLECMS support available
+--------------------------------------------------------------------
+To add a missing option, make sure you have the required
+library, and set the corresponding ROOT variable in the
+setup.py script.
+
+
+To check the build, run the selftest.py script.
+Got Pillow 1.7.8.
+Getting distribution for 'lxml==2.3.6'.
+Building lxml version 2.3.6.
+Building without Cython.
+Using build configuration of libxslt 1.1.26
+Building against libxml2/libxslt in the following directory: /usr/lib/x86_64-linux-gnu
+Got lxml 2.3.6.
+Generated script '/home/action/workspace/zeocluster/bin/client1'.
+Generated interpreter '/home/action/workspace/zeocluster/parts/client1/bin/interpreter'.
+Installing client2.
+Generated script '/home/action/workspace/zeocluster/bin/client2'.
+Generated interpreter '/home/action/workspace/zeocluster/parts/client2/bin/interpreter'.
+Installing backup.
+Generated script '/home/action/workspace/zeocluster/bin/backup'.
+Generated script '/home/action/workspace/zeocluster/bin/fullbackup'.
+Generated script '/home/action/workspace/zeocluster/bin/snapshotbackup'.
+Generated script '/home/action/workspace/zeocluster/bin/restore'.
+Generated script '/home/action/workspace/zeocluster/bin/snapshotrestore'.
+Installing zopepy.
+Generated interpreter '/home/action/workspace/zeocluster/bin/zopepy'.
+Installing unifiedinstaller.
+Generated script '/home/action/workspace/zeocluster/bin/plonectl'.
+*************** PICKED VERSIONS ****************
+[versions]
+
+*************** /PICKED VERSIONS ***************
+Finished at Mon May 11 19:42:41 UTC 2015

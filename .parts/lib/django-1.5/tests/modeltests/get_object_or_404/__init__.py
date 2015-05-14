@@ -1,0 +1,1 @@
+/home/action/.parts/packages/googleappengine/1.9.4/lib/django-1.5/tests/modeltests/get_object_or_404/__init__.py

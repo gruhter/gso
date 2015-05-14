@@ -1,0 +1,9 @@
+setuptools
+zope.component
+zope.interface
+zope.i18nmessageid
+Products.CMFCore
+Products.CMFPlone
+Products.GenericSetup
+zope.testing
+Products.PloneTestCase

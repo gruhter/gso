@@ -1,0 +1,157 @@
+2015-05-11T19:46:39 (3250) created PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-11T19:46:39 (3250) opening storage '1' using FileStorage
+2015-05-11T19:46:39 (3250) Blob directory /home/action/workspace/zeocluster/var/blobstorage does not exist. Selected `bushy` layout. 
+2015-05-11T19:46:39 (3250) Blob directory '/home/action/workspace/zeocluster/var/blobstorage/' does not exist. Created new directory.
+2015-05-11T19:46:39 (3250) Blob temporary directory '/home/action/workspace/zeocluster/var/blobstorage/tmp' does not exist. Created new directory.
+2015-05-11T19:46:39 StorageServer created RW with storages: 1:RW:/home/action/workspace/zeocluster/var/filestorage/Data.fs
+2015-05-11T19:46:39 (3250) listening on ('127.0.0.1', 8100)
+2015-05-11T19:47:00 new connection ('127.0.0.1', 44608): <ManagedServerConnection ('127.0.0.1', 44608)>
+2015-05-11T19:47:00 new connection ('127.0.0.1', 44609): <ManagedServerConnection ('127.0.0.1', 44609)>
+2015-05-11T19:47:00 new connection ('127.0.0.1', 44610): <ManagedServerConnection ('127.0.0.1', 44610)>
+2015-05-11T19:47:00 (127.0.0.1:44610) received handshake 'Z3101'
+2015-05-11T19:47:00 (unconnected) disconnected
+2015-05-11T19:47:00 (unconnected) disconnected
+2015-05-11T21:00:46 (3250) restarted by SIGHUP
+2015-05-11T21:00:46 (3250) closing storage '1'
+2015-05-11T21:00:46 (3250) removed PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T04:48:22 (402) created PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T04:48:22 (402) opening storage '1' using FileStorage
+2015-05-12T04:48:22 StorageServer created RW with storages: 1:RW:/home/action/workspace/zeocluster/var/filestorage/Data.fs
+2015-05-12T04:48:22 (402) listening on ('127.0.0.1', 8100)
+2015-05-12T04:48:36 new connection ('127.0.0.1', 41507): <ManagedServerConnection ('127.0.0.1', 41507)>
+2015-05-12T04:48:36 new connection ('127.0.0.1', 41508): <ManagedServerConnection ('127.0.0.1', 41508)>
+2015-05-12T04:48:36 new connection ('127.0.0.1', 41509): <ManagedServerConnection ('127.0.0.1', 41509)>
+2015-05-12T04:48:36 (127.0.0.1:41509) received handshake 'Z3101'
+2015-05-12T04:48:36 (unconnected) disconnected
+2015-05-12T04:48:36 (unconnected) disconnected
+2015-05-12T04:58:25 (127.0.0.1:41509) disconnected
+2015-05-12T04:58:25 (402) restarted by SIGHUP
+2015-05-12T04:58:25 (402) closing storage '1'
+2015-05-12T04:58:25 (402) removed PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T18:20:59 (403) created PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T18:20:59 (403) opening storage '1' using FileStorage
+2015-05-12T18:20:59 StorageServer created RW with storages: 1:RW:/home/action/workspace/zeocluster/var/filestorage/Data.fs
+2015-05-12T18:20:59 (403) listening on ('127.0.0.1', 8100)
+2015-05-12T18:21:13 new connection ('127.0.0.1', 36400): <ManagedServerConnection ('127.0.0.1', 36400)>
+2015-05-12T18:21:13 new connection ('127.0.0.1', 36401): <ManagedServerConnection ('127.0.0.1', 36401)>
+2015-05-12T18:21:13 new connection ('127.0.0.1', 36402): <ManagedServerConnection ('127.0.0.1', 36402)>
+2015-05-12T18:21:13 (127.0.0.1:36402) received handshake 'Z3101'
+2015-05-12T18:21:13 (unconnected) disconnected
+2015-05-12T18:21:13 (unconnected) disconnected
+2015-05-12T20:00:41 (403) terminated by SIGTERM
+2015-05-12T20:00:41 (403) closing storage '1'
+2015-05-12T20:00:41 (403) removed PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T20:03:37 (404) created PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T20:03:37 (404) opening storage '1' using FileStorage
+2015-05-12T20:03:38 StorageServer created RW with storages: 1:RW:/home/action/workspace/zeocluster/var/filestorage/Data.fs
+2015-05-12T20:03:38 (404) listening on ('127.0.0.1', 8100)
+2015-05-12T20:03:53 new connection ('127.0.0.1', 34164): <ManagedServerConnection ('127.0.0.1', 34164)>
+2015-05-12T20:03:53 new connection ('127.0.0.1', 34165): <ManagedServerConnection ('127.0.0.1', 34165)>
+2015-05-12T20:03:53 new connection ('127.0.0.1', 34166): <ManagedServerConnection ('127.0.0.1', 34166)>
+2015-05-12T20:03:53 (127.0.0.1:34166) received handshake 'Z3101'
+2015-05-12T20:03:53 (unconnected) disconnected
+2015-05-12T20:03:53 (unconnected) disconnected
+2015-05-12T20:17:28 (127.0.0.1:34166) disconnected
+2015-05-12T20:17:28 (404) restarted by SIGHUP
+2015-05-12T20:17:28 (404) closing storage '1'
+2015-05-12T20:17:28 (404) removed PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T20:21:25 (476) created PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T20:21:25 (476) opening storage '1' using FileStorage
+2015-05-12T20:21:25 StorageServer created RW with storages: 1:RW:/home/action/workspace/zeocluster/var/filestorage/Data.fs
+2015-05-12T20:21:26 (476) listening on ('127.0.0.1', 8100)
+2015-05-12T20:21:39 new connection ('127.0.0.1', 42360): <ManagedServerConnection ('127.0.0.1', 42360)>
+2015-05-12T20:21:39 new connection ('127.0.0.1', 42361): <ManagedServerConnection ('127.0.0.1', 42361)>
+2015-05-12T20:21:39 new connection ('127.0.0.1', 42362): <ManagedServerConnection ('127.0.0.1', 42362)>
+2015-05-12T20:21:39 (127.0.0.1:42362) received handshake 'Z3101'
+2015-05-12T20:21:39 (unconnected) disconnected
+2015-05-12T20:21:39 (unconnected) disconnected
+2015-05-12T20:54:37 (127.0.0.1:42362) disconnected
+2015-05-12T20:54:37 (476) restarted by SIGHUP
+2015-05-12T20:54:37 (476) closing storage '1'
+2015-05-12T20:54:37 (476) removed PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T20:54:43 (522) created PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T20:54:43 (522) opening storage '1' using FileStorage
+2015-05-12T20:54:43 StorageServer created RW with storages: 1:RW:/home/action/workspace/zeocluster/var/filestorage/Data.fs
+2015-05-12T20:54:43 (522) listening on ('127.0.0.1', 8100)
+2015-05-12T20:54:57 new connection ('127.0.0.1', 56342): <ManagedServerConnection ('127.0.0.1', 56342)>
+2015-05-12T20:54:57 new connection ('127.0.0.1', 56343): <ManagedServerConnection ('127.0.0.1', 56343)>
+2015-05-12T20:54:57 new connection ('127.0.0.1', 56344): <ManagedServerConnection ('127.0.0.1', 56344)>
+2015-05-12T20:54:57 (127.0.0.1:56344) received handshake 'Z3101'
+2015-05-12T20:54:57 (unconnected) disconnected
+2015-05-12T20:54:57 (unconnected) disconnected
+2015-05-12T20:57:21 (127.0.0.1:56344) disconnected
+2015-05-12T20:57:21 (522) restarted by SIGHUP
+2015-05-12T20:57:21 (522) closing storage '1'
+2015-05-12T20:57:21 (522) removed PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T20:57:26 (563) created PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T20:57:26 (563) opening storage '1' using FileStorage
+2015-05-12T20:57:26 StorageServer created RW with storages: 1:RW:/home/action/workspace/zeocluster/var/filestorage/Data.fs
+2015-05-12T20:57:27 (563) listening on ('127.0.0.1', 8100)
+2015-05-12T20:57:40 new connection ('127.0.0.1', 58859): <ManagedServerConnection ('127.0.0.1', 58859)>
+2015-05-12T20:57:40 new connection ('127.0.0.1', 58860): <ManagedServerConnection ('127.0.0.1', 58860)>
+2015-05-12T20:57:40 new connection ('127.0.0.1', 58861): <ManagedServerConnection ('127.0.0.1', 58861)>
+2015-05-12T20:57:40 (127.0.0.1:58861) received handshake 'Z3101'
+2015-05-12T20:57:40 (unconnected) disconnected
+2015-05-12T20:57:40 (unconnected) disconnected
+2015-05-12T21:10:41 (127.0.0.1:58861) pack(time=1430860241.658001) started...
+2015-05-12T21:10:41 (127.0.0.1:58861) pack(time=1430860241.658001) complete
+2015-05-12T21:10:56 (127.0.0.1:58861) disconnected
+2015-05-12T21:12:02 (563) restarted by SIGHUP
+2015-05-12T21:12:02 (563) closing storage '1'
+2015-05-12T21:12:02 (563) removed PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T21:12:09 (617) created PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T21:12:09 (617) opening storage '1' using FileStorage
+2015-05-12T21:12:09 StorageServer created RW with storages: 1:RW:/home/action/workspace/zeocluster/var/filestorage/Data.fs
+2015-05-12T21:12:09 (617) listening on ('127.0.0.1', 8100)
+2015-05-12T21:12:22 new connection ('127.0.0.1', 51210): <ManagedServerConnection ('127.0.0.1', 51210)>
+2015-05-12T21:12:22 new connection ('127.0.0.1', 51211): <ManagedServerConnection ('127.0.0.1', 51211)>
+2015-05-12T21:12:23 new connection ('127.0.0.1', 51212): <ManagedServerConnection ('127.0.0.1', 51212)>
+2015-05-12T21:12:23 (127.0.0.1:51212) received handshake 'Z3101'
+2015-05-12T21:12:23 (unconnected) disconnected
+2015-05-12T21:12:23 (unconnected) disconnected
+2015-05-12T21:22:31 (127.0.0.1:51212) disconnected
+2015-05-12T21:22:31 (617) restarted by SIGHUP
+2015-05-12T21:22:31 (617) closing storage '1'
+2015-05-12T21:22:31 (617) removed PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T21:24:04 (662) created PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T21:24:04 (662) opening storage '1' using FileStorage
+2015-05-12T21:24:04 StorageServer created RW with storages: 1:RW:/home/action/workspace/zeocluster/var/filestorage/Data.fs
+2015-05-12T21:24:05 (662) listening on ('127.0.0.1', 8100)
+2015-05-12T21:24:18 new connection ('127.0.0.1', 57755): <ManagedServerConnection ('127.0.0.1', 57755)>
+2015-05-12T21:24:18 new connection ('127.0.0.1', 57756): <ManagedServerConnection ('127.0.0.1', 57756)>
+2015-05-12T21:24:18 new connection ('127.0.0.1', 57757): <ManagedServerConnection ('127.0.0.1', 57757)>
+2015-05-12T21:24:18 (127.0.0.1:57757) received handshake 'Z3101'
+2015-05-12T21:24:18 (unconnected) disconnected
+2015-05-12T21:24:18 (unconnected) disconnected
+2015-05-12T21:28:30 (127.0.0.1:57757) disconnected
+2015-05-12T21:28:30 (662) restarted by SIGHUP
+2015-05-12T21:28:30 (662) closing storage '1'
+2015-05-12T21:28:30 (662) removed PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T21:39:27 (403) created PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T21:39:27 (403) opening storage '1' using FileStorage
+2015-05-12T21:39:27 StorageServer created RW with storages: 1:RW:/home/action/workspace/zeocluster/var/filestorage/Data.fs
+2015-05-12T21:39:28 (403) listening on ('127.0.0.1', 8100)
+2015-05-12T21:39:42 new connection ('127.0.0.1', 39677): <ManagedServerConnection ('127.0.0.1', 39677)>
+2015-05-12T21:39:42 new connection ('127.0.0.1', 39678): <ManagedServerConnection ('127.0.0.1', 39678)>
+2015-05-12T21:39:42 new connection ('127.0.0.1', 39679): <ManagedServerConnection ('127.0.0.1', 39679)>
+2015-05-12T21:39:42 (127.0.0.1:39679) received handshake 'Z3101'
+2015-05-12T21:39:42 (unconnected) disconnected
+2015-05-12T21:39:42 (unconnected) disconnected
+2015-05-12T23:01:15 (127.0.0.1:39679) disconnected
+2015-05-12T23:01:15 (403) restarted by SIGHUP
+2015-05-12T23:01:15 (403) closing storage '1'
+2015-05-12T23:01:15 (403) removed PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T23:04:11 (404) created PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'
+2015-05-12T23:04:11 (404) opening storage '1' using FileStorage
+2015-05-12T23:04:12 StorageServer created RW with storages: 1:RW:/home/action/workspace/zeocluster/var/filestorage/Data.fs
+2015-05-12T23:04:12 (404) listening on ('127.0.0.1', 8100)
+2015-05-12T23:04:26 new connection ('127.0.0.1', 36896): <ManagedServerConnection ('127.0.0.1', 36896)>
+2015-05-12T23:04:26 new connection ('127.0.0.1', 36897): <ManagedServerConnection ('127.0.0.1', 36897)>
+2015-05-12T23:04:26 new connection ('127.0.0.1', 36898): <ManagedServerConnection ('127.0.0.1', 36898)>
+2015-05-12T23:04:26 (127.0.0.1:36898) received handshake 'Z3101'
+2015-05-12T23:04:26 (unconnected) disconnected
+2015-05-12T23:04:26 (unconnected) disconnected
+2015-05-12T23:35:57 (127.0.0.1:36898) disconnected
+2015-05-12T23:35:57 (404) restarted by SIGHUP
+2015-05-12T23:35:57 (404) closing storage '1'
+2015-05-12T23:35:57 (404) removed PID file '/home/action/workspace/zeocluster/var/zeoserver/zeoserver.pid'

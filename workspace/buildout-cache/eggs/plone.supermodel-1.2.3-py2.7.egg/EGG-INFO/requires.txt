@@ -1,0 +1,17 @@
+setuptools
+lxml
+zope.component
+zope.interface
+zope.schema
+zope.deferredimport
+zope.dottedname
+z3c.zcmlhook
+
+[test]
+plone.rfc822
+
+[lxml]
+
+
+[plone.rfc822]
+plone.rfc822

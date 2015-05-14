@@ -1,0 +1,21 @@
+[zest.releaser.releaser.middle]
+datacheck = zest.releaser.release:datacheck
+
+[zest.releaser.prereleaser.before]
+datacheck = zest.releaser.utils:prepare_documentation_entrypoint
+
+[zest.releaser.postreleaser.middle]
+datacheck = zest.releaser.postrelease:datacheck
+
+[console_scripts]
+fullrelease = zest.releaser.fullrelease:main
+postrelease = zest.releaser.postrelease:main
+lasttagdiff = zest.releaser.lasttagdiff:main
+prerelease = zest.releaser.prerelease:main
+release = zest.releaser.release:main
+longtest = zest.releaser.longtest:main
+lasttaglog = zest.releaser.lasttaglog:main
+
+[zest.releaser.prereleaser.middle]
+datacheck = zest.releaser.prerelease:datacheck
+

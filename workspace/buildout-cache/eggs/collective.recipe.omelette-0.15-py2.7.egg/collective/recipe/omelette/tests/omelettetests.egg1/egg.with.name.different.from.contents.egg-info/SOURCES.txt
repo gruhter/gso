@@ -1,0 +1,12 @@
+setup.py
+egg.with.name.different.from.contents.egg-info/PKG-INFO
+egg.with.name.different.from.contents.egg-info/SOURCES.txt
+egg.with.name.different.from.contents.egg-info/dependency_links.txt
+egg.with.name.different.from.contents.egg-info/namespace_packages.txt
+egg.with.name.different.from.contents.egg-info/requires.txt
+egg.with.name.different.from.contents.egg-info/top_level.txt
+omelettetests/__init__.py
+omelettetests/ingredient.py
+omelettetests/chicken/__init__.py
+omelettetests/chicken/who.py
+omelettetests/egg1/__init__.py

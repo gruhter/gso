@@ -1,0 +1,1 @@
+kupu https://svn.plone.org/svn/collective/kupu/tag/kupu-1.5.1
